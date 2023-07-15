@@ -1,0 +1,32 @@
+{
+  "paymentInformation": {
+    "card": {
+      "number": "4616222222222257",
+      "expirationMonth": "12",
+      "expirationYear": "2030",
+      "securityCode": "333"
+    }
+  },
+  "pointOfSaleInformation": { "entryMode": "keyed", "terminalCapability": 2 },
+  "clientReferenceInformation": {
+    "code": "request.clientReferenceInformation.code"
+  },
+  "processingInformation": {
+    "paymentSolution": "",
+    "capture": "true",
+    "commerceIndicator": "retail"
+  },
+  "buyerInformation": { "merchantCustomerId": "000004" },
+  "orderInformation": {
+    "amountDetails": { "currency": "USD", "totalAmount": 111.01 },
+    "billTo": {
+      "country": "United States",
+      "firstName": "John",
+      "lastName": "Smith",
+      "address1": "89 Easy St",
+      "postalCode": "89144",
+      "administrativeArea": "CA",
+      "email": "josh@gibbs.tk"
+    }
+  }
+}
